@@ -1,0 +1,16 @@
+# Free_AI_Clipper
+Free AI tool to auto-clip long YouTube videos into YouTube cuts + Shorts/Reels. Supports Arabic, English, French...etc
+
+The workflow goes as follows
+
+Paste the YouTube url URL to you Python code in terminal 
+    ↓
+yt-dlp downloads video.mp4
+    ↓
+Whisper transcribes audio to transcript.srt  (runs locally, free)
+    ↓
+Claude or Ollama reads transcript, picks best clips, writes titles and captions
+    ↓
+ffmpeg cuts clips and crops shorts to vertical 9:16
+    ↓
+output/youtube/  and  output/shorts/
