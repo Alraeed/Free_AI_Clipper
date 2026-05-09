@@ -183,6 +183,7 @@ For Arabic videos the script is already set to transcribe in Arabic and sends th
 - base — fast, okay quality
 - small — medium speed, good quality, recommended for most videos
 - medium — slow, great quality, best for Arabic and non-English content
+- to adjust the language, edit "f'--language en" in code and change en to ar or the language wanted
 
 ---
 
